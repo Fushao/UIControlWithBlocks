@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9A7B9BA1-6543-4E16-BEBD-E546E2B30A6A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIControlWithBlocks</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>060F543FFCAC208B37C6C9A2996266ADECCDE83C</key>
+		<string>https://github.com/Fushao/UIControlWithBlocks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIControlWithBlocks.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>060F543FFCAC208B37C6C9A2996266ADECCDE83C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Fushao/UIControlWithBlocks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>060F543FFCAC208B37C6C9A2996266ADECCDE83C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>060F543FFCAC208B37C6C9A2996266ADECCDE83C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIControlWithBlocks</string>
+		</dict>
+	</array>
+</dict>
+</plist>

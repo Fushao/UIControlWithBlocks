@@ -1,6 +1,6 @@
 //
-//  BlockControlTests.m
-//  BlockControlTests
+//  UIControlWithBlocksTests.m
+//  UIControlWithBlocksTests
 //
 //  Created by Fushao on 14/12/27.
 //  Copyright (c) 2014年 Fushao. All rights reserved.

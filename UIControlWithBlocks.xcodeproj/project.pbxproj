@@ -13,7 +13,17 @@
 		5094A0CE1A4EEE0C0050CCE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5094A0CC1A4EEE0C0050CCE0 /* Main.storyboard */; };
 		5094A0D01A4EEE0C0050CCE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5094A0CF1A4EEE0C0050CCE0 /* Images.xcassets */; };
 		5094A0D31A4EEE0C0050CCE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5094A0D11A4EEE0C0050CCE0 /* LaunchScreen.xib */; };
-		5094A0DF1A4EEE0C0050CCE0 /* BlockControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0DE1A4EEE0C0050CCE0 /* BlockControlTests.m */; };
+		5094A0DF1A4EEE0C0050CCE0 /* UIControlWithBlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0DE1A4EEE0C0050CCE0 /* UIControlWithBlocksTests.m */; };
+		5094A0EB1A4EEE420050CCE0 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0EA1A4EEE420050CCE0 /* UIAlertView+Blocks.m */; };
+		5094A0EE1A4EEE480050CCE0 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0ED1A4EEE480050CCE0 /* UIActionSheet+Blocks.m */; };
+		5094A0F11A4EEEFE0050CCE0 /* UIButton+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0F01A4EEEFE0050CCE0 /* UIButton+Blocks.m */; };
+		5094A0F41A4EF1730050CCE0 /* UISwitch+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0F31A4EF1730050CCE0 /* UISwitch+Blocks.m */; };
+		5094A0F81A4EF31C0050CCE0 /* UITextField+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0F71A4EF31C0050CCE0 /* UITextField+Blocks.m */; };
+		5094A0FB1A4EF6860050CCE0 /* UISlider+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0FA1A4EF6860050CCE0 /* UISlider+Blocks.m */; };
+		5094A0FE1A4EF7F70050CCE0 /* UIPageControl+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0FD1A4EF7F70050CCE0 /* UIPageControl+Blocks.m */; };
+		5094A1011A4EF8D10050CCE0 /* UIStepper+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A1001A4EF8D10050CCE0 /* UIStepper+Blocks.m */; };
+		5094A1041A4EF97A0050CCE0 /* UITextView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A1031A4EF97A0050CCE0 /* UITextView+Blocks.m */; };
+		5094A1071A4EFBF40050CCE0 /* UISegmentedControl+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A1061A4EFBF40050CCE0 /* UISegmentedControl+Blocks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5094A0BF1A4EEE0C0050CCE0 /* BlockControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5094A0BF1A4EEE0C0050CCE0 /* UIControlWithBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIControlWithBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5094A0C31A4EEE0C0050CCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5094A0C41A4EEE0C0050CCE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5094A0C61A4EEE0C0050CCE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,9 +47,30 @@
 		5094A0CD1A4EEE0C0050CCE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5094A0CF1A4EEE0C0050CCE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5094A0D21A4EEE0C0050CCE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		5094A0D81A4EEE0C0050CCE0 /* BlockControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5094A0D81A4EEE0C0050CCE0 /* UIControlWithBlocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIControlWithBlocksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5094A0DD1A4EEE0C0050CCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5094A0DE1A4EEE0C0050CCE0 /* BlockControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockControlTests.m; sourceTree = "<group>"; };
+		5094A0DE1A4EEE0C0050CCE0 /* UIControlWithBlocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIControlWithBlocksTests.m; sourceTree = "<group>"; };
+		5094A0E91A4EEE420050CCE0 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		5094A0EA1A4EEE420050CCE0 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		5094A0EC1A4EEE480050CCE0 /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		5094A0ED1A4EEE480050CCE0 /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		5094A0EF1A4EEEFE0050CCE0 /* UIButton+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Blocks.h"; sourceTree = "<group>"; };
+		5094A0F01A4EEEFE0050CCE0 /* UIButton+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Blocks.m"; sourceTree = "<group>"; };
+		5094A0F21A4EF1730050CCE0 /* UISwitch+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+Blocks.h"; sourceTree = "<group>"; };
+		5094A0F31A4EF1730050CCE0 /* UISwitch+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+Blocks.m"; sourceTree = "<group>"; };
+		5094A0F51A4EF2730050CCE0 /* UIControlWithBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIControlWithBlocks.h; sourceTree = "<group>"; };
+		5094A0F61A4EF31C0050CCE0 /* UITextField+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Blocks.h"; sourceTree = "<group>"; };
+		5094A0F71A4EF31C0050CCE0 /* UITextField+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Blocks.m"; sourceTree = "<group>"; };
+		5094A0F91A4EF6860050CCE0 /* UISlider+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+Blocks.h"; sourceTree = "<group>"; };
+		5094A0FA1A4EF6860050CCE0 /* UISlider+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+Blocks.m"; sourceTree = "<group>"; };
+		5094A0FC1A4EF7F70050CCE0 /* UIPageControl+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageControl+Blocks.h"; sourceTree = "<group>"; };
+		5094A0FD1A4EF7F70050CCE0 /* UIPageControl+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageControl+Blocks.m"; sourceTree = "<group>"; };
+		5094A0FF1A4EF8D10050CCE0 /* UIStepper+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStepper+Blocks.h"; sourceTree = "<group>"; };
+		5094A1001A4EF8D10050CCE0 /* UIStepper+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStepper+Blocks.m"; sourceTree = "<group>"; };
+		5094A1021A4EF97A0050CCE0 /* UITextView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Blocks.h"; sourceTree = "<group>"; };
+		5094A1031A4EF97A0050CCE0 /* UITextView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Blocks.m"; sourceTree = "<group>"; };
+		5094A1051A4EFBF40050CCE0 /* UISegmentedControl+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+Blocks.h"; sourceTree = "<group>"; };
+		5094A1061A4EFBF40050CCE0 /* UISegmentedControl+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+Blocks.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +94,9 @@
 		5094A0B61A4EEE0C0050CCE0 = {
 			isa = PBXGroup;
 			children = (
-				5094A0C11A4EEE0C0050CCE0 /* BlockControl */,
-				5094A0DB1A4EEE0C0050CCE0 /* BlockControlTests */,
+				5094A0E81A4EEE2D0050CCE0 /* UIControl+Block */,
+				5094A0C11A4EEE0C0050CCE0 /* UIControlWithBlocks */,
+				5094A0DB1A4EEE0C0050CCE0 /* UIControlWithBlocksTests */,
 				5094A0C01A4EEE0C0050CCE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,13 +104,13 @@
 		5094A0C01A4EEE0C0050CCE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5094A0BF1A4EEE0C0050CCE0 /* BlockControl.app */,
-				5094A0D81A4EEE0C0050CCE0 /* BlockControlTests.xctest */,
+				5094A0BF1A4EEE0C0050CCE0 /* UIControlWithBlocks.app */,
+				5094A0D81A4EEE0C0050CCE0 /* UIControlWithBlocksTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5094A0C11A4EEE0C0050CCE0 /* BlockControl */ = {
+		5094A0C11A4EEE0C0050CCE0 /* UIControlWithBlocks */ = {
 			isa = PBXGroup;
 			children = (
 				5094A0C61A4EEE0C0050CCE0 /* AppDelegate.h */,
@@ -90,6 +122,7 @@
 				5094A0D11A4EEE0C0050CCE0 /* LaunchScreen.xib */,
 				5094A0C21A4EEE0C0050CCE0 /* Supporting Files */,
 			);
+			name = UIControlWithBlocks;
 			path = BlockControl;
 			sourceTree = "<group>";
 		};
@@ -102,12 +135,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5094A0DB1A4EEE0C0050CCE0 /* BlockControlTests */ = {
+		5094A0DB1A4EEE0C0050CCE0 /* UIControlWithBlocksTests */ = {
 			isa = PBXGroup;
 			children = (
-				5094A0DE1A4EEE0C0050CCE0 /* BlockControlTests.m */,
+				5094A0DE1A4EEE0C0050CCE0 /* UIControlWithBlocksTests.m */,
 				5094A0DC1A4EEE0C0050CCE0 /* Supporting Files */,
 			);
+			name = UIControlWithBlocksTests;
 			path = BlockControlTests;
 			sourceTree = "<group>";
 		};
@@ -119,12 +153,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5094A0E81A4EEE2D0050CCE0 /* UIControl+Block */ = {
+			isa = PBXGroup;
+			children = (
+				5094A1081A4F056C0050CCE0 /* Categories */,
+				5094A0F51A4EF2730050CCE0 /* UIControlWithBlocks.h */,
+			);
+			path = "UIControl+Block";
+			sourceTree = "<group>";
+		};
+		5094A1081A4F056C0050CCE0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5094A0E91A4EEE420050CCE0 /* UIAlertView+Blocks.h */,
+				5094A0EA1A4EEE420050CCE0 /* UIAlertView+Blocks.m */,
+				5094A0EC1A4EEE480050CCE0 /* UIActionSheet+Blocks.h */,
+				5094A0ED1A4EEE480050CCE0 /* UIActionSheet+Blocks.m */,
+				5094A0EF1A4EEEFE0050CCE0 /* UIButton+Blocks.h */,
+				5094A0F01A4EEEFE0050CCE0 /* UIButton+Blocks.m */,
+				5094A0F21A4EF1730050CCE0 /* UISwitch+Blocks.h */,
+				5094A0F31A4EF1730050CCE0 /* UISwitch+Blocks.m */,
+				5094A0F61A4EF31C0050CCE0 /* UITextField+Blocks.h */,
+				5094A0F71A4EF31C0050CCE0 /* UITextField+Blocks.m */,
+				5094A0F91A4EF6860050CCE0 /* UISlider+Blocks.h */,
+				5094A0FA1A4EF6860050CCE0 /* UISlider+Blocks.m */,
+				5094A0FC1A4EF7F70050CCE0 /* UIPageControl+Blocks.h */,
+				5094A0FD1A4EF7F70050CCE0 /* UIPageControl+Blocks.m */,
+				5094A0FF1A4EF8D10050CCE0 /* UIStepper+Blocks.h */,
+				5094A1001A4EF8D10050CCE0 /* UIStepper+Blocks.m */,
+				5094A1021A4EF97A0050CCE0 /* UITextView+Blocks.h */,
+				5094A1031A4EF97A0050CCE0 /* UITextView+Blocks.m */,
+				5094A1051A4EFBF40050CCE0 /* UISegmentedControl+Blocks.h */,
+				5094A1061A4EFBF40050CCE0 /* UISegmentedControl+Blocks.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5094A0BE1A4EEE0C0050CCE0 /* BlockControl */ = {
+		5094A0BE1A4EEE0C0050CCE0 /* UIControlWithBlocks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5094A0E21A4EEE0C0050CCE0 /* Build configuration list for PBXNativeTarget "BlockControl" */;
+			buildConfigurationList = 5094A0E21A4EEE0C0050CCE0 /* Build configuration list for PBXNativeTarget "UIControlWithBlocks" */;
 			buildPhases = (
 				5094A0BB1A4EEE0C0050CCE0 /* Sources */,
 				5094A0BC1A4EEE0C0050CCE0 /* Frameworks */,
@@ -134,14 +204,14 @@
 			);
 			dependencies = (
 			);
-			name = BlockControl;
+			name = UIControlWithBlocks;
 			productName = BlockControl;
-			productReference = 5094A0BF1A4EEE0C0050CCE0 /* BlockControl.app */;
+			productReference = 5094A0BF1A4EEE0C0050CCE0 /* UIControlWithBlocks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5094A0D71A4EEE0C0050CCE0 /* BlockControlTests */ = {
+		5094A0D71A4EEE0C0050CCE0 /* UIControlWithBlocksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5094A0E51A4EEE0C0050CCE0 /* Build configuration list for PBXNativeTarget "BlockControlTests" */;
+			buildConfigurationList = 5094A0E51A4EEE0C0050CCE0 /* Build configuration list for PBXNativeTarget "UIControlWithBlocksTests" */;
 			buildPhases = (
 				5094A0D41A4EEE0C0050CCE0 /* Sources */,
 				5094A0D51A4EEE0C0050CCE0 /* Frameworks */,
@@ -152,9 +222,9 @@
 			dependencies = (
 				5094A0DA1A4EEE0C0050CCE0 /* PBXTargetDependency */,
 			);
-			name = BlockControlTests;
+			name = UIControlWithBlocksTests;
 			productName = BlockControlTests;
-			productReference = 5094A0D81A4EEE0C0050CCE0 /* BlockControlTests.xctest */;
+			productReference = 5094A0D81A4EEE0C0050CCE0 /* UIControlWithBlocksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +245,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5094A0BA1A4EEE0C0050CCE0 /* Build configuration list for PBXProject "BlockControl" */;
+			buildConfigurationList = 5094A0BA1A4EEE0C0050CCE0 /* Build configuration list for PBXProject "UIControlWithBlocks" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +258,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5094A0BE1A4EEE0C0050CCE0 /* BlockControl */,
-				5094A0D71A4EEE0C0050CCE0 /* BlockControlTests */,
+				5094A0BE1A4EEE0C0050CCE0 /* UIControlWithBlocks */,
+				5094A0D71A4EEE0C0050CCE0 /* UIControlWithBlocksTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,8 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5094A1071A4EFBF40050CCE0 /* UISegmentedControl+Blocks.m in Sources */,
 				5094A0CB1A4EEE0C0050CCE0 /* ViewController.m in Sources */,
+				5094A1041A4EF97A0050CCE0 /* UITextView+Blocks.m in Sources */,
+				5094A0EB1A4EEE420050CCE0 /* UIAlertView+Blocks.m in Sources */,
+				5094A0EE1A4EEE480050CCE0 /* UIActionSheet+Blocks.m in Sources */,
+				5094A0F81A4EF31C0050CCE0 /* UITextField+Blocks.m in Sources */,
+				5094A0F11A4EEEFE0050CCE0 /* UIButton+Blocks.m in Sources */,
+				5094A0FB1A4EF6860050CCE0 /* UISlider+Blocks.m in Sources */,
+				5094A1011A4EF8D10050CCE0 /* UIStepper+Blocks.m in Sources */,
+				5094A0FE1A4EF7F70050CCE0 /* UIPageControl+Blocks.m in Sources */,
 				5094A0C81A4EEE0C0050CCE0 /* AppDelegate.m in Sources */,
+				5094A0F41A4EF1730050CCE0 /* UISwitch+Blocks.m in Sources */,
 				5094A0C51A4EEE0C0050CCE0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5094A0DF1A4EEE0C0050CCE0 /* BlockControlTests.m in Sources */,
+				5094A0DF1A4EEE0C0050CCE0 /* UIControlWithBlocksTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +318,7 @@
 /* Begin PBXTargetDependency section */
 		5094A0DA1A4EEE0C0050CCE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5094A0BE1A4EEE0C0050CCE0 /* BlockControl */;
+			target = 5094A0BE1A4EEE0C0050CCE0 /* UIControlWithBlocks */;
 			targetProxy = 5094A0D91A4EEE0C0050CCE0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -346,8 +426,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlockControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UIControlWithBlocks;
 			};
 			name = Debug;
 		};
@@ -356,8 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlockControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UIControlWithBlocks;
 			};
 			name = Release;
 		};
@@ -375,7 +457,7 @@
 				);
 				INFOPLIST_FILE = BlockControlTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UIControlWithBlocksTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockControl.app/BlockControl";
 			};
 			name = Debug;
@@ -390,7 +472,7 @@
 				);
 				INFOPLIST_FILE = BlockControlTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UIControlWithBlocksTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockControl.app/BlockControl";
 			};
 			name = Release;
@@ -398,7 +480,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5094A0BA1A4EEE0C0050CCE0 /* Build configuration list for PBXProject "BlockControl" */ = {
+		5094A0BA1A4EEE0C0050CCE0 /* Build configuration list for PBXProject "UIControlWithBlocks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5094A0E01A4EEE0C0050CCE0 /* Debug */,
@@ -407,21 +489,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5094A0E21A4EEE0C0050CCE0 /* Build configuration list for PBXNativeTarget "BlockControl" */ = {
+		5094A0E21A4EEE0C0050CCE0 /* Build configuration list for PBXNativeTarget "UIControlWithBlocks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5094A0E31A4EEE0C0050CCE0 /* Debug */,
 				5094A0E41A4EEE0C0050CCE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5094A0E51A4EEE0C0050CCE0 /* Build configuration list for PBXNativeTarget "BlockControlTests" */ = {
+		5094A0E51A4EEE0C0050CCE0 /* Build configuration list for PBXNativeTarget "UIControlWithBlocksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5094A0E61A4EEE0C0050CCE0 /* Debug */,
 				5094A0E71A4EEE0C0050CCE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

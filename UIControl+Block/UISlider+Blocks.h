@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UISlider+Blocks.h
 //  UIControlWithBlocks
 //
 //  Created by Fushao on 14/12/27.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+typedef void (^SliderBlock)(CGFloat progress);
 
+@interface UISlider (Blocks)
+
+- (void)cb_setBlock:(SliderBlock)block;
 
 @end
-

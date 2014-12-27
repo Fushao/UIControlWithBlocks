@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIStepper+Blocks.h
 //  UIControlWithBlocks
 //
 //  Created by Fushao on 14/12/27.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+typedef void (^StepperBlock)(CGFloat value);
 
+@interface UIStepper (Blocks)
+
+- (void)cb_setBlock:(StepperBlock)block;
 
 @end
-
