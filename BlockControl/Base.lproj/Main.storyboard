@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
@@ -19,8 +20,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5K-Vn-sXO">
                                 <rect key="frame" x="261" y="20" width="79" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="79" id="2SL-SO-f6c"/>
-                                    <constraint firstAttribute="height" constant="30" id="um5-A6-jYH"/>
+                                    <constraint firstAttribute="height" constant="30" id="5Kq-4B-0cq"/>
+                                    <constraint firstAttribute="width" constant="79" id="h68-rt-e36"/>
                                 </constraints>
                                 <state key="normal" title="UIAlertView">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -32,8 +33,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDD-aI-heN">
                                 <rect key="frame" x="251" y="50" width="99" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="99" id="W7S-o4-2Jy"/>
-                                    <constraint firstAttribute="height" constant="30" id="Xx5-21-mGR"/>
+                                    <constraint firstAttribute="width" constant="99" id="8pS-a7-6f6"/>
+                                    <constraint firstAttribute="height" constant="30" id="iFB-nm-NWg"/>
                                 </constraints>
                                 <state key="normal" title="UIActionSheet">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -45,8 +46,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Cz-wx-pLp">
                                 <rect key="frame" x="270" y="79" width="61" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="6lC-Xz-hr9"/>
-                                    <constraint firstAttribute="width" constant="61" id="tKb-GN-6XQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="bzj-q7-4P4"/>
+                                    <constraint firstAttribute="width" constant="61" id="weg-rr-VIu"/>
                                 </constraints>
                                 <state key="normal" title="UIButton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -55,55 +56,36 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n97-cY-pkh">
                                 <rect key="frame" x="276" y="117" width="51" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="49" id="nud-NP-gMl"/>
-                                    <constraint firstAttribute="height" constant="31" id="qNC-oZ-OQM"/>
+                                    <constraint firstAttribute="width" constant="49" id="0Hf-0L-zJv"/>
+                                    <constraint firstAttribute="height" constant="31" id="ZNy-O1-5Ag"/>
                                 </constraints>
                             </switch>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SCj-oB-5Fp">
-                                <rect key="frame" x="186" y="156" width="229" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="229" id="NB6-EI-E5f"/>
-                                    <constraint firstAttribute="height" constant="30" id="fX3-ao-oCc"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Xpa-iO-wKa">
-                                <rect key="frame" x="201" y="194" width="198" height="31"/>
+                                <rect key="frame" x="201" y="156" width="198" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="5mx-kk-Zwg"/>
-                                    <constraint firstAttribute="width" constant="194" id="BEh-Sd-HsL"/>
+                                    <constraint firstAttribute="width" constant="194" id="1TJ-E9-MYP"/>
+                                    <constraint firstAttribute="height" constant="30" id="yH0-0k-UBf"/>
                                 </constraints>
                             </slider>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="6t5-PU-LjN">
-                                <rect key="frame" x="281" y="238" width="39" height="37"/>
+                                <rect key="frame" x="281" y="194" width="39" height="37"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="39" id="CfR-of-5W7"/>
-                                    <constraint firstAttribute="height" constant="37" id="Gpa-Fa-HuH"/>
+                                    <constraint firstAttribute="width" constant="39" id="26x-iJ-dO5"/>
+                                    <constraint firstAttribute="height" constant="37" id="eWv-jc-2Qx"/>
                                 </constraints>
                             </pageControl>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="0gQ-ti-r7K">
-                                <rect key="frame" x="253" y="283" width="94" height="29"/>
+                                <rect key="frame" x="253" y="239" width="94" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="29" id="99Y-5D-jYn"/>
-                                    <constraint firstAttribute="width" constant="94" id="KJw-yG-CPA"/>
+                                    <constraint firstAttribute="height" constant="29" id="Zv5-qH-HtS"/>
+                                    <constraint firstAttribute="width" constant="94" id="vQN-br-oAH"/>
                                 </constraints>
                             </stepper>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WKH-5m-XfL">
-                                <rect key="frame" x="180" y="320" width="240" height="36"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="Bkx-5k-BFQ"/>
-                                    <constraint firstAttribute="height" constant="36" id="Mqk-dL-q5F"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="SEt-5r-CR8">
-                                <rect key="frame" x="187" y="370" width="227" height="29"/>
+                                <rect key="frame" x="187" y="286" width="227" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="227" id="thP-86-cG7"/>
-                                    <constraint firstAttribute="height" constant="28" id="wpM-JD-tO2"/>
+                                    <constraint firstAttribute="height" constant="28" id="R0b-Yd-M4M"/>
+                                    <constraint firstAttribute="width" constant="227" id="Veb-HB-jeh"/>
                                 </constraints>
                                 <segments>
                                     <segment title="First"/>
@@ -115,26 +97,22 @@
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="7Cz-wx-pLp" firstAttribute="top" secondItem="T5K-Vn-sXO" secondAttribute="bottom" constant="29" id="0rV-EA-FTB"/>
-                            <constraint firstAttribute="centerX" secondItem="7Cz-wx-pLp" secondAttribute="centerX" id="4tX-uh-yGP"/>
-                            <constraint firstAttribute="centerX" secondItem="T5K-Vn-sXO" secondAttribute="centerX" id="6Vg-ev-UC2"/>
-                            <constraint firstAttribute="centerX" secondItem="SCj-oB-5Fp" secondAttribute="centerX" id="6Wt-2z-6Zb"/>
-                            <constraint firstAttribute="centerX" secondItem="dDD-aI-heN" secondAttribute="centerX" id="ASh-f5-A5y"/>
-                            <constraint firstAttribute="centerX" secondItem="SEt-5r-CR8" secondAttribute="centerX" id="BHH-bp-Xet"/>
-                            <constraint firstItem="6t5-PU-LjN" firstAttribute="top" secondItem="Xpa-iO-wKa" secondAttribute="bottom" constant="14" id="Nma-YL-4LG"/>
-                            <constraint firstAttribute="centerX" secondItem="n97-cY-pkh" secondAttribute="centerX" id="T5R-gz-Blt"/>
-                            <constraint firstAttribute="centerX" secondItem="WKH-5m-XfL" secondAttribute="centerX" id="VmQ-Xy-aQM"/>
-                            <constraint firstItem="dDD-aI-heN" firstAttribute="top" secondItem="T5K-Vn-sXO" secondAttribute="bottom" id="ZpX-72-deT"/>
-                            <constraint firstItem="T5K-Vn-sXO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="aKh-I0-Ci5"/>
-                            <constraint firstAttribute="centerX" secondItem="Xpa-iO-wKa" secondAttribute="centerX" id="cCh-bZ-e6P"/>
-                            <constraint firstItem="WKH-5m-XfL" firstAttribute="top" secondItem="0gQ-ti-r7K" secondAttribute="bottom" constant="8" id="dbK-94-Prn"/>
-                            <constraint firstItem="n97-cY-pkh" firstAttribute="top" secondItem="7Cz-wx-pLp" secondAttribute="bottom" constant="8" id="gBC-d6-pLQ"/>
-                            <constraint firstAttribute="centerX" secondItem="6t5-PU-LjN" secondAttribute="centerX" id="hSY-7G-joc"/>
-                            <constraint firstAttribute="centerX" secondItem="0gQ-ti-r7K" secondAttribute="centerX" id="jYF-Ez-3DW"/>
-                            <constraint firstItem="Xpa-iO-wKa" firstAttribute="top" secondItem="SCj-oB-5Fp" secondAttribute="bottom" constant="8" id="kVo-dK-NUu"/>
-                            <constraint firstItem="SEt-5r-CR8" firstAttribute="top" secondItem="WKH-5m-XfL" secondAttribute="bottom" constant="14" id="qqW-mh-RxL"/>
-                            <constraint firstItem="SCj-oB-5Fp" firstAttribute="top" secondItem="n97-cY-pkh" secondAttribute="bottom" constant="8" id="sPl-UO-f8F"/>
-                            <constraint firstItem="0gQ-ti-r7K" firstAttribute="top" secondItem="6t5-PU-LjN" secondAttribute="bottom" constant="8" id="sqc-lF-7kF"/>
+                            <constraint firstAttribute="centerX" secondItem="n97-cY-pkh" secondAttribute="centerX" id="0kY-Ua-VJE"/>
+                            <constraint firstAttribute="centerX" secondItem="Xpa-iO-wKa" secondAttribute="centerX" id="1mV-8V-YoB"/>
+                            <constraint firstItem="Xpa-iO-wKa" firstAttribute="top" secondItem="n97-cY-pkh" secondAttribute="bottom" constant="8" id="4Rf-7K-sc3"/>
+                            <constraint firstAttribute="centerX" secondItem="7Cz-wx-pLp" secondAttribute="centerX" id="4ed-EF-Btx"/>
+                            <constraint firstAttribute="centerX" secondItem="0gQ-ti-r7K" secondAttribute="centerX" id="Cfs-KA-K9M"/>
+                            <constraint firstItem="T5K-Vn-sXO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="FRo-O2-zHx"/>
+                            <constraint firstItem="n97-cY-pkh" firstAttribute="top" secondItem="7Cz-wx-pLp" secondAttribute="bottom" constant="8" id="GAS-uf-qzB"/>
+                            <constraint firstAttribute="centerX" secondItem="dDD-aI-heN" secondAttribute="centerX" id="HWV-o1-HVW"/>
+                            <constraint firstAttribute="centerX" secondItem="6t5-PU-LjN" secondAttribute="centerX" id="JI6-MP-crt"/>
+                            <constraint firstItem="0gQ-ti-r7K" firstAttribute="top" secondItem="6t5-PU-LjN" secondAttribute="bottom" constant="8" id="Ne0-KV-RXn"/>
+                            <constraint firstAttribute="centerX" secondItem="T5K-Vn-sXO" secondAttribute="centerX" id="Vd9-oC-Uhp"/>
+                            <constraint firstAttribute="centerX" secondItem="SEt-5r-CR8" secondAttribute="centerX" id="cOM-wb-vJc"/>
+                            <constraint firstItem="SEt-5r-CR8" firstAttribute="top" secondItem="0gQ-ti-r7K" secondAttribute="bottom" constant="18" id="fgI-bh-uZF"/>
+                            <constraint firstItem="6t5-PU-LjN" firstAttribute="top" secondItem="Xpa-iO-wKa" secondAttribute="bottom" constant="8" id="fgI-yJ-zFt"/>
+                            <constraint firstItem="7Cz-wx-pLp" firstAttribute="top" secondItem="T5K-Vn-sXO" secondAttribute="bottom" constant="29" id="goc-bb-3h9"/>
+                            <constraint firstItem="dDD-aI-heN" firstAttribute="top" secondItem="T5K-Vn-sXO" secondAttribute="bottom" id="qCX-MC-O2J"/>
                         </constraints>
                     </view>
                     <connections>
@@ -144,8 +122,6 @@
                         <outlet property="slider" destination="Xpa-iO-wKa" id="11J-6B-IbH"/>
                         <outlet property="stepper" destination="0gQ-ti-r7K" id="pSh-U1-5Ny"/>
                         <outlet property="switchControl" destination="n97-cY-pkh" id="TlZ-7Q-ku7"/>
-                        <outlet property="textField" destination="SCj-oB-5Fp" id="j23-Xl-Pcv"/>
-                        <outlet property="textView" destination="WKH-5m-XfL" id="0ZN-W3-vuJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

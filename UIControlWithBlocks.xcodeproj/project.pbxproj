@@ -18,11 +18,9 @@
 		5094A0EE1A4EEE480050CCE0 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0ED1A4EEE480050CCE0 /* UIActionSheet+Blocks.m */; };
 		5094A0F11A4EEEFE0050CCE0 /* UIButton+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0F01A4EEEFE0050CCE0 /* UIButton+Blocks.m */; };
 		5094A0F41A4EF1730050CCE0 /* UISwitch+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0F31A4EF1730050CCE0 /* UISwitch+Blocks.m */; };
-		5094A0F81A4EF31C0050CCE0 /* UITextField+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0F71A4EF31C0050CCE0 /* UITextField+Blocks.m */; };
 		5094A0FB1A4EF6860050CCE0 /* UISlider+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0FA1A4EF6860050CCE0 /* UISlider+Blocks.m */; };
 		5094A0FE1A4EF7F70050CCE0 /* UIPageControl+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A0FD1A4EF7F70050CCE0 /* UIPageControl+Blocks.m */; };
 		5094A1011A4EF8D10050CCE0 /* UIStepper+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A1001A4EF8D10050CCE0 /* UIStepper+Blocks.m */; };
-		5094A1041A4EF97A0050CCE0 /* UITextView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A1031A4EF97A0050CCE0 /* UITextView+Blocks.m */; };
 		5094A1071A4EFBF40050CCE0 /* UISegmentedControl+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5094A1061A4EFBF40050CCE0 /* UISegmentedControl+Blocks.m */; };
 /* End PBXBuildFile section */
 
@@ -59,16 +57,12 @@
 		5094A0F21A4EF1730050CCE0 /* UISwitch+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+Blocks.h"; sourceTree = "<group>"; };
 		5094A0F31A4EF1730050CCE0 /* UISwitch+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+Blocks.m"; sourceTree = "<group>"; };
 		5094A0F51A4EF2730050CCE0 /* UIControlWithBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIControlWithBlocks.h; sourceTree = "<group>"; };
-		5094A0F61A4EF31C0050CCE0 /* UITextField+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Blocks.h"; sourceTree = "<group>"; };
-		5094A0F71A4EF31C0050CCE0 /* UITextField+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Blocks.m"; sourceTree = "<group>"; };
 		5094A0F91A4EF6860050CCE0 /* UISlider+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+Blocks.h"; sourceTree = "<group>"; };
 		5094A0FA1A4EF6860050CCE0 /* UISlider+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+Blocks.m"; sourceTree = "<group>"; };
 		5094A0FC1A4EF7F70050CCE0 /* UIPageControl+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageControl+Blocks.h"; sourceTree = "<group>"; };
 		5094A0FD1A4EF7F70050CCE0 /* UIPageControl+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageControl+Blocks.m"; sourceTree = "<group>"; };
 		5094A0FF1A4EF8D10050CCE0 /* UIStepper+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStepper+Blocks.h"; sourceTree = "<group>"; };
 		5094A1001A4EF8D10050CCE0 /* UIStepper+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStepper+Blocks.m"; sourceTree = "<group>"; };
-		5094A1021A4EF97A0050CCE0 /* UITextView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Blocks.h"; sourceTree = "<group>"; };
-		5094A1031A4EF97A0050CCE0 /* UITextView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Blocks.m"; sourceTree = "<group>"; };
 		5094A1051A4EFBF40050CCE0 /* UISegmentedControl+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+Blocks.h"; sourceTree = "<group>"; };
 		5094A1061A4EFBF40050CCE0 /* UISegmentedControl+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+Blocks.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,16 +167,12 @@
 				5094A0F01A4EEEFE0050CCE0 /* UIButton+Blocks.m */,
 				5094A0F21A4EF1730050CCE0 /* UISwitch+Blocks.h */,
 				5094A0F31A4EF1730050CCE0 /* UISwitch+Blocks.m */,
-				5094A0F61A4EF31C0050CCE0 /* UITextField+Blocks.h */,
-				5094A0F71A4EF31C0050CCE0 /* UITextField+Blocks.m */,
 				5094A0F91A4EF6860050CCE0 /* UISlider+Blocks.h */,
 				5094A0FA1A4EF6860050CCE0 /* UISlider+Blocks.m */,
 				5094A0FC1A4EF7F70050CCE0 /* UIPageControl+Blocks.h */,
 				5094A0FD1A4EF7F70050CCE0 /* UIPageControl+Blocks.m */,
 				5094A0FF1A4EF8D10050CCE0 /* UIStepper+Blocks.h */,
 				5094A1001A4EF8D10050CCE0 /* UIStepper+Blocks.m */,
-				5094A1021A4EF97A0050CCE0 /* UITextView+Blocks.h */,
-				5094A1031A4EF97A0050CCE0 /* UITextView+Blocks.m */,
 				5094A1051A4EFBF40050CCE0 /* UISegmentedControl+Blocks.h */,
 				5094A1061A4EFBF40050CCE0 /* UISegmentedControl+Blocks.m */,
 			);
@@ -291,10 +281,8 @@
 			files = (
 				5094A1071A4EFBF40050CCE0 /* UISegmentedControl+Blocks.m in Sources */,
 				5094A0CB1A4EEE0C0050CCE0 /* ViewController.m in Sources */,
-				5094A1041A4EF97A0050CCE0 /* UITextView+Blocks.m in Sources */,
 				5094A0EB1A4EEE420050CCE0 /* UIAlertView+Blocks.m in Sources */,
 				5094A0EE1A4EEE480050CCE0 /* UIActionSheet+Blocks.m in Sources */,
-				5094A0F81A4EF31C0050CCE0 /* UITextField+Blocks.m in Sources */,
 				5094A0F11A4EEEFE0050CCE0 /* UIButton+Blocks.m in Sources */,
 				5094A0FB1A4EF6860050CCE0 /* UISlider+Blocks.m in Sources */,
 				5094A1011A4EF8D10050CCE0 /* UIStepper+Blocks.m in Sources */,

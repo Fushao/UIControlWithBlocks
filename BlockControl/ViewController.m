@@ -30,11 +30,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self testButton];
     [self testSwitch];
-    [self testTextField];
     [self testSlider];
     [self testPageControl];
     [self testStepper];
-    [self testTextView];
     [self testSegmentedControl];
 }
 
@@ -78,19 +76,6 @@
     }];
 }
 
-- (void)testTextField
-{
-    [_textField cb_setBeginEditingBlock:^(NSString *text) {
-        NSLog(@"Text field begin editing! %@", text);
-    }];
-    [_textField cb_setEndEditingBlock:^(NSString *text) {
-        NSLog(@"Text field end editing! %@", text);
-    }];
-    [_textField cb_setTextChangedBlock:^(NSString *text) {
-        NSLog(@"Text field text changed! %@", text);
-    }];
-}
-
 - (void)testSlider
 {
     [_slider cb_setBlock:^(CGFloat progress) {
@@ -109,19 +94,6 @@
 {
     [_stepper cb_setBlock:^(CGFloat value) {
         NSLog(@"stepper value is:%f", value);
-    }];
-}
-
-- (void)testTextView
-{
-    [_textView cb_setBeginEditingBlock:^(NSString *text) {
-        NSLog(@"Text view begin editing! %@", text);
-    }];
-    [_textView cb_setEndEditingBlock:^(NSString *text) {
-        NSLog(@"Text view end editing! %@", text);
-    }];
-    [_textView cb_setTextChangedBlock:^(NSString *text) {
-        NSLog(@"Text view text changed! %@", text);
     }];
 }
 
